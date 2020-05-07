@@ -1,0 +1,247 @@
+@media  screen and (min-width: 768px) {
+
+  header .navbar .img{
+    padding-left: 3rem;
+  }
+
+  header .navbar .btn-hamburger{
+    padding-right: 4rem;
+  }
+
+  header .title .row .form-row .form-inline .btn-first {
+    margin-left:-5px;
+    width:350%;
+    padding-left: 20rem;
+
+  }
+
+  header .title .row .form-row .form-inline .btn-second {
+    margin-left: 8rem;
+    width:450%;
+  }
+
+  .btn-fix{
+    white-space: nowrap;
+  }
+
+  section .section-1 .body-paragraph, section .section-4 .body-paragraph,section .section-6 .body-paragraph{
+    width: 700px;
+    padding-left: 12rem;
+  }
+
+  section .section-1-1{
+    display: flex;
+    text-align: center;
+  }
+
+
+  .section1Title{
+    padding-left: 7rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  section .section-2{
+    display: none;
+  }
+
+  .line1{
+    width:83%;
+    padding-top: 0;
+    margin-top:0;
+  }
+
+  #line3 {
+    width:35%;
+    border-color: red;
+    margin-bottom: 0;
+    margin-left: 65px;
+    border-style: solid;
+  }
+
+  .section-3 .illustration{
+    padding-left: 20%;
+  }
+
+  section .section-3 .body{
+    padding: 2rem;
+  }
+  section .section-3 .btn-first{
+    margin-left: 5rem;
+    background-color: hsl(229, 69%, 61%);
+    width:50%;
+  }
+
+  section .section-3 .sameLine{
+    white-space: nowrap;
+  }
+
+
+   section .section-5 .card{
+    margin-left: 2rem;
+  }
+
+  section .section-5 .card-3{
+    margin-left: 15rem;
+  }
+
+  section .section-7 .question-body,section .section-7 .question-body4{
+    padding-left: 13rem;
+  }
+
+  section .section-7 .container .col-12{
+    padding-left: 50px;
+  }
+
+  section .section-7 .question-body4{
+    width:504px;
+  }
+
+
+
+
+}
+
+/*1024px*/
+@media only screen and  (min-width:769px) {
+  header .container-fluid .img{
+    margin-left: 1rem;
+  }
+
+  header .nav{
+    padding: 0;
+  }
+
+
+
+  header .navbar-nav{
+    padding-left: 14rem;
+  }
+
+  header .container .row .heading{
+    width:350px;
+    padding-left: 0;
+  }
+
+
+  header .title .row .form-row .form-inline .btn-first {
+    margin-left:-8px;
+    width:250%;
+    padding-left: 20rem;
+
+  }
+
+  header .title .row .form-row .form-inline .btn-second {
+    margin-left: 8rem;
+    width:300%;
+  }
+
+
+
+
+  section .section-1 .body-paragraph, section .section-4 .body-paragraph,section .section-6 .body-paragraph{
+    width:850px;
+    padding-bottom: 2rem;
+    padding-left: 18rem;
+  }
+
+  section .section-1-1{
+    padding-left: 6rem;
+  }
+
+
+
+  section .section-4{
+    padding-bottom: 2rem;
+  }
+
+  section .section-5 .card-1{
+    margin-left: 0;
+  }
+  section .section-5 .card-2{
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+
+  section .section-5 .card-3{
+    margin-top: 4rem;
+    margin-left: 0;
+  }
+
+   section .section-7 .question-body,section .section-7 .question-body4{
+    padding-left: 23rem;
+  }
+
+  section .section-7 .question-body4{
+    width:700px;
+  }
+
+
+  section .section-8 .form-inline{
+    margin-left: 12rem;
+  }
+
+  footer .footer-ul .center{
+    padding-left: 4rem;
+  }
+  footer .footer-ul .icon{
+    padding-left: 13rem;
+  }
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  header .navbar-nav{
+    padding-left: 26rem;
+  }
+
+  header .container-fluid .img{
+    padding-left: 12rem;
+  }
+
+  header .container .row .title-section .heading{
+    padding-left: 5rem !important;
+  }
+
+  header .container .row .title-section .title-paragraph{
+    width:80%;
+  }
+  section .section-1 .body-paragraph, section .section-4 .body-paragraph,section .section-6 .body-paragraph{
+    width:1250px;
+    padding-bottom: 2rem;
+    padding-left: 25rem;
+  }
+
+  .line2,.line3{
+    padding-left: 20rem;
+  }
+
+  section .section-3 .container .illustration{
+    padding-left: 0;
+  }
+
+  section .section-3 .container .right{
+  padding-left: 4rem;
+}
+section .section-5 .card-deck{
+  padding-left: 90px;
+}
+
+section .section-5 .card-3{
+  margin-top: 4rem;
+  margin-left: 0;
+}
+
+section .section-8 .form-inline{
+  padding-left:375px;
+}
+footer .footer-ul .img{
+  padding-left: 9rem;
+}
+footer .footer-ul .center{
+  padding-left: 15rem;
+}
+}
