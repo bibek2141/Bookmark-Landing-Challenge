@@ -1,248 +1,266 @@
-@media only screen and (min-width:320px){
-* {
-  box-sizing: border-box;
-}
+@media only screen and (min-width: 320px) {
+  * {
+    box-sizing: border-box;
+  }
 
-/*Header*/
-header, section, footer {
-  overflow-x: hidden;
-}
+  /*Header*/
+  header,
+  section,
+  footer {
+    overflow-x: hidden;
+  }
 
-header .navbar {
-  padding-top: 2em;
-}
+  header .navbar {
+    padding-top: 2em;
+  }
 
-header .navbar-nav {
-  padding-top: 1em;
-}
+  header .navbar-nav {
+    padding-top: 1em;
+  }
 
-header .container-fluid .form-inline .btn {
-  color: white;
-  background-color: hsl(0, 94%, 66%);
-  border-color: hsl(0, 94%, 66%);
-  border-radius: 30px;
-  border: 0;
-  margin-left: 2rem;
-}
+  header .container-fluid .form-inline .btn {
+    color: white;
+    background-color: hsl(0, 94%, 66%);
+    border-color: hsl(0, 94%, 66%);
+    border-radius: 30px;
+    border: 0;
+    margin-left: 2rem;
+  }
 
-header .navbar .btn-hamburger {
-  color: hsl(229, 31%, 21%);
-  border: none;
-  background-color: white;
-}
+  header .navbar .btn-hamburger {
+    color: hsl(229, 31%, 21%);
+    border: none;
+    background-color: white;
+  }
 
-/*Title Section*/
-header .title {
-  padding-top: 4em;
-}
+  .btn-hamburger:focus,
+  .btn-hamburger:active,
+  .btn-hamburger:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
 
-header .title .row .illustration, section .section-3 .illustration {
-  width: 100%;
-}
+  /*Title Section*/
+  header .title {
+    padding-top: 4em;
+  }
 
-header .title .row .heading, section .section-3 .body, section .section-4 .body, section .section-6 .body {
-  color: hsl(229, 31%, 21%);
-  padding-top: 1rem;
-  font-size: 25px;
-  padding-bottom: 1rem;
-}
+  header .title .row .illustration,
+  section .section-3 .illustration {
+    width: 100%;
+  }
 
-header .title .row .heading {
-  font-size: 30px;
-}
+  header .title .row .heading,
+  section .section-3 .body,
+  section .section-4 .body,
+  section .section-6 .body {
+    color: hsl(229, 31%, 21%);
+    padding-top: 1rem;
+    font-size: 25px;
+    padding-bottom: 1rem;
+  }
 
-header .title .row .title-paragraph, section .section-1 .body-paragraph, section .section-3 .body-paragraph, section .section-4 .body-paragraph, section .section-6 .body-paragraph {
-  padding-left: 2rem;
-  padding-bottom: 1rem;
-  padding-right: 1.5rem;
-  color: grey;
-}
+  header .title .row .heading {
+    font-size: 30px;
+  }
 
-header .title .row .form-row .btn-first {
-  margin-bottom: 10px;
-  margin-left: 40px;
-  background-color: hsl(229, 69%, 61%);
-  border: none;
-}
+  header .title .row .title-paragraph,
+  section .section-1 .body-paragraph,
+  section .section-3 .body-paragraph,
+  section .section-4 .body-paragraph,
+  section .section-6 .body-paragraph {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    color: grey;
+  }
 
-header .title .row .form-row .btn-second {
-  border-right-width: 10px;
-  margin-bottom: 10px;
-  margin-left: 40px;
-}
+  header .title .row .form-row .btn-first {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    background-color: hsl(229, 69%, 61%);
+    border: none;
+  }
 
-/*Section*/
-section .section-1 .body {
-  padding-top: 9rem;
-  font-size: 24px;
-}
+  header .title .row .form-row .btn-second {
+    border-right-width: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
 
-section .section-2 .line {
-  width: 70%;
-}
+  /*Section*/
+  section .section-1 .body {
+    padding-top: 9rem;
+    font-size: 24px;
+  }
 
-#line2 {
-  border-color: red;
-  margin-bottom: 0;
-  width: 25%;
-}
+  section .section-2 .line {
+    width: 70%;
+  }
 
-h6 {
-  text-align: center;
-}
+  #line2 {
+    border-color: red;
+    margin-bottom: 0;
+    width: 25%;
+  }
 
-section .section-2 .part2 .line {
-  margin-top: 0;
-}
+  h6 {
+    text-align: center;
+  }
 
-/*Section 3*/
-.section-3, .section-6 {
-  padding-top: 4rem;
-}
+  section .section-2 .part2 .line {
+    margin-top: 0;
+  }
 
-section .section-3 .body, section .section-4 .body {
-  padding-left: 1rem;
-  padding-top: 3rem;
-}
+  /*Section 3*/
+  .section-3,
+  .section-6 {
+    padding-top: 4rem;
+  }
 
-section .section-3 .body-paragraph {
-  padding-left: 2rem;
-  padding-right: 1.5rem;
-}
+  section .section-3 .body,
+  section .section-4 .body {
+    padding-left: 1rem;
+    padding-top: 3rem;
+  }
 
+  section .section-3 .body-paragraph {
+    padding-left: 2rem;
+    padding-right: 1.5rem;
+  }
 
+  /*Section 5*/
+  section .section-5 .card-deck {
+    padding-left: 0.5rem;
+  }
+  section .section-5 .sameLine {
+    white-space: nowrap;
+  }
 
-/*Section 5*/
-section .section-5 .card-deck{
-  padding-left: 1rem;
-}
-section .section-5 .sameLine {
-  white-space: nowrap;
-}
+  section .section-5 .btn-first {
+    width: 250px;
+  }
 
-section .section-5 .btn-first {
-  width: 250px;
-}
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-}
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
+  section .section-5 .card .Review {
+    padding-top: 2rem;
+    padding-left: 6rem;
+  }
 
-section .section-5 .card .Review {
-  padding-top: 2rem;
-  padding-left: 6rem;
-}
+  section .section-5 .subHeading {
+    padding-left: 3rem;
+  }
+  section .section-5 .card .dots {
+    width: 107%;
+    padding-left: 0;
+  }
 
-section .section-5 .subHeading{
-  padding-left: 3rem;
-}
-section .section-5 .card .dots {
-  width: 107%;
-  padding-left: 0;
-}
+  /*Section 6*/
+  section .section-6 .body {
+    padding-left: 1rem;
+    font-weight: 600;
+  }
 
-/*Section 6*/
-section .section-6 .body {
-  padding-left: 1rem;
-  font-weight: 600;
-}
+  section .section-7 .question-body {
+    padding-left: 1rem;
+  }
 
-section .section-7 .question-body {
-  padding-left: 1rem;
-}
+  section .section-7 .btn {
+    background-color: white;
+    border: none;
+    padding-top: 0;
+    padding-left: 7rem;
+    color: inherit;
+  }
 
-section .section-7 .btn {
-  background-color: white;
-  border: none;
-  padding-top: 0;
-  padding-left: 7rem;
-  color: inherit;
-}
+  section .section-7 .question-body,
+  section .section-7 .question-body4 {
+    display: inline-block;
+  }
 
-section .section-7 .question-body, section .section-7 .question-body4 {
-  display: inline-block;
-}
+  section .section-7 .question-body4 {
+    width: 226px;
+    padding-left: 1rem;
+  }
 
-section .section-7 .question-body4 {
-  width: 226px;
-  padding-left: 1rem;
-}
+  section .section-7 .line {
+    width: 85%;
+  }
 
-section .section-7 .line {
-  width: 85%;
-}
+  section .more-info .btn-first {
+    background-color: hsl(229, 69%, 61%);
+    border: none;
+    margin-left: 70px;
+  }
 
-section .more-info .btn-first {
-  background-color: hsl(229, 69%, 61%);
-  border: none;
-  margin-left: 70px;
-}
+  section .more-info {
+    padding-bottom: 5rem;
+  }
 
-section .more-info {
-  padding-bottom: 5rem;
-}
+  section .section-8 {
+    background-color: hsl(229, 69%, 61%);
+    padding-bottom: 2rem;
+  }
 
-section .section-8 {
-  background-color: hsl(229, 69%, 61%);
-  padding-bottom: 2rem;
-}
+  section .section-8 .form-inline {
+    margin-top: 30px;
+    margin-left: 55px;
+  }
 
-section .section-8 .form-inline {
-  margin-top: 30px;
-  margin-left: 55px;
-}
+  section .section-8 .text {
+    padding-top: 2rem;
+    color: white;
+  }
 
-section .section-8 .text {
-  padding-top: 2rem;
-  color: white;
-}
+  section .section-8 .text .para {
+    font-size: 12px;
+    letter-spacing: 4px;
+  }
 
-section .section-8 .text .para {
-  font-size: 12px;
-  letter-spacing: 4px;
-}
+  section .section-8 .form-inline .btn {
+    margin-top: 1rem;
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    padding-left: 0;
+    width: 100%;
+  }
 
-section .section-8 .form-inline .btn {
-  margin-top: 1rem;
-  background-color: hsl(0, 94%, 66%);
-  color: white;
-  padding-left: 0;
-  width: 100%;
-}
+  /*Footer*/
+  footer {
+    padding-top: 3rem;
+    background-color: hsl(229, 31%, 21%);
+    color: white;
+  }
 
-/*Footer*/
-footer {
-  padding-top: 3rem;
-  background-color: hsl(229, 31%, 21%);
-  color: white;
-}
+  .footer-ul {
+    text-align: center;
+  }
 
-.footer-ul {
-  text-align: center;
-}
+  li {
+    list-style-type: none;
+    padding: 2rem;
+  }
 
-li {
-  list-style-type: none;
-  padding: 2rem;
-}
+  footer .footer-ul .first-one {
+    margin-right: 2rem;
+  }
 
-footer .footer-ul .first-one {
-  margin-right: 2rem;
-}
-
-.footer1-ul {
-  display: inline;
-  width: 150%;
-}
+  .footer1-ul {
+    display: inline;
+  }
 }
 /*375px*/
 @media (min-width: 321px) and (max-width: 375px) {
-  header .title .row .form-row .btn-first, header .title .row .form-row .btn-second {
+  header .title .row .form-row .btn-first,
+  header .title .row .form-row .btn-second {
     margin-left: 55px;
   }
 
@@ -250,37 +268,36 @@ footer .footer-ul .first-one {
     padding-left: 3rem;
   }
 
-  section .section-5 .card{
+  section .section-5 .card {
     margin-left: 2rem;
   }
   section .section-5 .btn-first {
-    margin-left:  0;
+    margin-left: 0;
   }
 
   section .section-5 .card .dots {
     width: 105%;
-
   }
 
-  section .section-8 .form-inline{
-    width:350px;
+  section .section-8 .form-inline {
+    width: 350px;
     margin-left: 5rem;
   }
 
-  footer .footer-ul{
-    width:350px;
+  footer .footer-ul {
+    width: 350px;
     margin-left: 0;
   }
 }
 /*480px*/
 @media (min-width: 376px) and (max-width: 600px) {
-
-  *{
+  * {
     box-sizing: border-box;
   }
 
   /*Button of header*/
-  header .title .row .form-row .btn-first, header .title .row .form-row .btn-second {
+  header .title .row .form-row .btn-first,
+  header .title .row .form-row .btn-second {
     margin-left: 80px;
   }
 
@@ -289,17 +306,15 @@ footer .footer-ul .first-one {
     padding-left: 5rem;
   }
 
-
   section .section-5 .card .dots {
     width: 106%;
-
   }
 
   section .section-5 .btn-first {
-    margin-left:  0;
+    margin-left: 0;
   }
 
-  section .section-5 .card{
+  section .section-5 .card {
     margin-left: 3rem;
   }
 
@@ -308,100 +323,99 @@ footer .footer-ul .first-one {
     font-size: 15px;
   }
 
-
-  section .section-8 .form-inline{
-    width:350px;
+  section .section-8 .form-inline {
+    width: 350px;
     margin-left: 7rem;
   }
 
-  footer .footer-ul{
-    width:350px;
+  footer .footer-ul {
+    width: 350px;
     margin-left: 0;
   }
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
-  header .navbar .img{
+  header .navbar .img {
     padding-left: 4rem;
   }
 
-  header .navbar .btn-hamburger{
+  header .navbar .btn-hamburger {
     padding-right: 7rem;
   }
 
   /*Button of header*/
-  header .title .row .form-row .btn-first, header .title .row .form-row .btn-second {
+  header .title .row .form-row .btn-first,
+  header .title .row .form-row .btn-second {
     margin-left: 110px;
   }
 
-  section .section-1 .body-paragraph, section .section-4 .body-paragraph,section .section-6 .body-paragraph{
+  section .section-1 .body-paragraph,
+  section .section-4 .body-paragraph,
+  section .section-6 .body-paragraph {
     padding-top: 1rem;
-    width:650px;
+    width: 650px;
     padding-right: 5rem;
     padding-bottom: 2rem;
     padding-left: 6rem;
-    }
+  }
 
-  section .section-3 .body{
+  section .section-3 .body {
     padding-left: 8rem;
   }
 
-  section .section-5 .card{
+  section .section-5 .card {
     margin-left: 7rem;
   }
 
-  section .section-7 .line{
-    width:70%;
+  section .section-7 .line {
+    width: 70%;
   }
 
-  section .section-7 .container .col-12{
+  section .section-7 .container .col-12 {
     padding-left: 140px;
   }
 
-  section .section-8 .form-inline{
+  section .section-8 .form-inline {
     padding-left: 60px;
   }
 
-  section .section-8 .form-inline .btn{
-    width:150px;
+  section .section-8 .form-inline .btn {
+    width: 150px;
     margin-top: 0;
-    margin-left:10px;
+    margin-left: 10px;
     border-top-width: 0;
-    height:36px;
+    height: 36px;
   }
   ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-
-}
-
-li {
-  float: left;
-}
-
-}
-
-@media  (min-width:320px)and (max-width: 767.9px){
-  .section-1-1{
-    display:none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
   }
 
-   #line3,.line1{
-    display:none;
+  li {
+    float: left;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767.9px) {
+  .section-1-1 {
+    display: none;
+  }
+
+  #line3,
+  .line1 {
+    display: none;
   }
   /*Section -3*/
-  section .section-3 .btn-first{
-    display:none;
+  section .section-3 .btn-first {
+    display: none;
   }
 }
 
-@media (min-width:992px){
-  header .navbar .btn-primary{
+@media (min-width: 992px) {
+  header .navbar .btn-primary {
     display: none;
   }
 }
